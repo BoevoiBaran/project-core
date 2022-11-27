@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 60aa9e677e7162c40b56915fbc9f09bf
+  m_SerializeEntries:
+  - m_GUID: b27ff0cfe929c5d4fbee44549f2a8687
+    m_Address: meta_scene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ecd6c8250b6cc96459a5b2761a80ea95
+    m_Address: perks_tree_dialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e13a8ea9a31eeea44899f89d63b53af1
+    m_Address: common_perk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 89f854c0b72e83340aed9ac983355841
+    m_Address: perk_line
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 4554657209905284411, guid: 89f854c0b72e83340aed9ac983355841, type: 3}
+    m_TargetAsset: {fileID: 4554657209905284411, guid: 89f854c0b72e83340aed9ac983355841, type: 3}
+  - m_GUID: 3223d0587562d1d42ab14d9307ba828d
+    m_Address: perks.json
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 4900000, guid: 3223d0587562d1d42ab14d9307ba828d, type: 3}
+    m_TargetAsset: {fileID: 4900000, guid: 3223d0587562d1d42ab14d9307ba828d, type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: cdaa74f0d20489a45a9808b5bc0d3a01, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ac802816f3d5f0b4dbaf86c040a2aed7, type: 2}
+    - {fileID: 11400000, guid: 2416cac4f75eabf4d86782a15ccf295c, type: 2}

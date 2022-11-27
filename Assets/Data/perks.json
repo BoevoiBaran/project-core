@@ -1,0 +1,238 @@
+{
+    "perks": {
+        "base": {
+            "is_base": true,
+            "view_settings": {
+                "name": "Base",
+                "prefab_id": "common_perk",
+                "size": 200,
+                "position": [
+                    960,
+                    540
+                ]
+            }
+        },
+        "perk_1": {
+            "learn_price": 2,
+            "view_settings": {
+                "name": "1",
+                "prefab_id": "common_perk",
+                "size": 140,
+                "position": [
+                    760,
+                    800
+                ]
+            }
+        },
+        "perk_2": {
+            "learn_price": 2,
+            "view_settings": {
+                "name": "2",
+                "prefab_id": "common_perk",
+                "size": 140,
+                "position": [
+                    1200,
+                    340
+                ]
+            }
+        },
+        "perk_3": {
+            "learn_price": 2,
+            "view_settings": {
+                "name": "3",
+                "prefab_id": "common_perk",
+                "size": 140,
+                "position": [
+                    1400,
+                    140
+                ]
+            }
+        },
+        "perk_4": {
+            "learn_price": 2,
+            "view_settings": {
+                "name": "4",
+                "prefab_id": "common_perk",
+                "size": 140,
+                "position": [
+                    720,
+                    340
+                ]
+            }
+        },
+        "perk_5": {
+            "learn_price": 2,
+            "view_settings": {
+                "name": "5",
+                "prefab_id": "common_perk",
+                "size": 140,
+                "position": [
+                    420,
+                    300
+                ]
+            }
+        },
+        "perk_6": {
+            "learn_price": 2,
+            "view_settings": {
+                "name": "6",
+                "prefab_id": "common_perk",
+                "size": 140,
+                "position": [
+                    720,
+                    120
+                ]
+            }
+        },
+        "perk_7": {
+            "learn_price": 2,
+            "view_settings": {
+                "name": "7",
+                "prefab_id": "common_perk",
+                "size": 140,
+                "position": [
+                    400,
+                    100
+                ]
+            }
+        },
+        "perk_8": {
+            "learn_price": 2,
+            "view_settings": {
+                "name": "8",
+                "prefab_id": "common_perk",
+                "size": 140,
+                "position": [
+                    1000,
+                    900
+                ]
+            }
+        },
+        "perk_9": {
+            "learn_price": 2,
+            "view_settings": {
+                "name": "9",
+                "prefab_id": "common_perk",
+                "size": 140,
+                "position": [
+                    1400,
+                    600
+                ]
+            }
+        },
+        "perk_10": {
+            "learn_price": 2,
+            "view_settings": {
+                "name": "10",
+                "prefab_id": "common_perk",
+                "size": 140,
+                "position": [
+                    1500,
+                    1000
+                ]
+            }
+        },
+        "perk_11": {
+            "learn_price": 2,
+            "view_settings": {
+                "name": "11",
+                "prefab_id": "common_perk",
+                "size": 140,
+                "position": [
+                    120,
+                    300
+                ]
+            }
+        },
+        "perk_12": {
+            "learn_price": 2,
+            "view_settings": {
+                "name": "12",
+                "prefab_id": "common_perk",
+                "size": 140,
+                "position": [
+                    120,
+                    100
+                ]
+            }
+        },
+        "perk_13": {
+            "learn_price": 2,
+            "view_settings": {
+                "name": "13",
+                "prefab_id": "common_perk",
+                "size": 140,
+                "position": [
+                    500,
+                    600
+                ]
+            }
+        }
+    },
+    "connections": [
+        [
+            "base",
+            "perk_2"
+        ],
+        [
+            "base",
+            "perk_1"
+        ],
+        [
+            "perk_3",
+            "perk_2"
+        ],
+        [
+            "base",
+            "perk_4"
+        ],
+        [
+            "perk_5",
+            "perk_4"
+        ],
+        [
+            "perk_11",
+            "perk_12"
+        ],
+        [
+            "perk_6",
+            "perk_7"
+        ],
+        [
+            "perk_6",
+            "perk_4"
+        ],
+        [
+            "base",
+            "perk_8"
+        ],
+        [
+            "base",
+            "perk_9"
+        ],
+        [
+            "perk_10",
+            "perk_8"
+        ],
+        [
+            "perk_10",
+            "perk_9"
+        ],
+        [
+            "perk_11",
+            "perk_5"
+        ],
+        [
+            "perk_12",
+            "perk_7"
+        ],
+        [
+            "perk_13",
+            "perk_11"
+        ],
+        [
+            "perk_13",
+            "perk_4"
+        ]
+    ]
+}
