@@ -1,1 +1,1 @@
-project-core-downloader Unity 2021.3.9f1
+project-core Unity 2021.3.9f1
